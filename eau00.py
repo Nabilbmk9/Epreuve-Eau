@@ -1,4 +1,4 @@
-# Combinaisons de 3 chiffres
+#Combinaisons de 3 chiffres
 
 
 #Variable
