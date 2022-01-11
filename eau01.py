@@ -6,7 +6,7 @@ liste2 = []
 liste3 = []
 tour = 0
 
-#Créer une liste avec toute les combinaison de 2 chiffres
+# Créer une liste avec toute les combinaison de 2 chiffres
 for a in chiffre:
     for b in chiffre:
         liste.append([str(a) + str(b)])
