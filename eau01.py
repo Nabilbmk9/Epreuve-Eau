@@ -16,11 +16,11 @@ for c in range(len(liste)):
     for d in range(len(liste)):
         if liste[c] != liste[d] :
             liste2.append(liste[c] + liste[d])
-            
+
 # Trier le tout et enlever les doublons
 for e in range(len(liste2)):
     liste2[e].sort()
-    if liste2[e] not in liste3:
+    if (liste2[e][0]) + " " + (liste2[e][1]) not in liste3:
         liste3.append(' '.join(liste2[e]))
         
 # Print en ligne avec une virgule
