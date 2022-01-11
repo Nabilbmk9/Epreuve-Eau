@@ -22,6 +22,8 @@ for e in range(len(liste2)):
     liste2[e].sort()
     if (liste2[e][0]) + " " + (liste2[e][1]) not in liste3:
         liste3.append(' '.join(liste2[e]))
+
+
         
 # Print en ligne avec une virgule
 for f in liste3:
